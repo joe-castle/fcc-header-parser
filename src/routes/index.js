@@ -3,6 +3,8 @@
 const express = require('express');
 const app = express();
 
+app.set("trust proxy", true);
+
 app.get('/', (req, res) => {
   let software = req.headers['user-agent'].match(/\(([^)]+)\)/i)[0]
   software = software.substring(1, software.length-1);
