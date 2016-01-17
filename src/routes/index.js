@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
   software = software.substring(1, software.length-1);
 
   res.json({
-    ipaddress: req.ip,
+    ipaddress: req.connection.remoteAddress,
     language: req.headers['accept-language'].split(',')[0],
     software
   });
