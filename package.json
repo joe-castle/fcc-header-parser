@@ -1,5 +1,5 @@
 {
-  "name": "twitch-app",
+  "name": "request-header-parser-project",
   "version": "1.0.0",
   "description": "Twitch App from FCC",
   "main": "index.js",
