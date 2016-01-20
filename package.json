@@ -1,7 +1,7 @@
 {
   "name": "request-header-parser-project",
   "version": "1.0.0",
-  "description": "Twitch App from FCC",
+  "description": "Header Parser Project from FCC",
   "main": "index.js",
   "scripts": {
     "start": "node -- src/backend/server.js",
