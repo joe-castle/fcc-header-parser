@@ -1,5 +1,7 @@
 # FCC Request Header Parser Microservice
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/joesmith100/fcc-header-parser.svg)](https://greenkeeper.io/)
+
 Please see challenge page for more info: http://www.freecodecamp.com/challenges/request-header-parser-microservice
 
 ```
